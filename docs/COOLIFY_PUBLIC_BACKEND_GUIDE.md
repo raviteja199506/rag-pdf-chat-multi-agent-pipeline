@@ -8,10 +8,10 @@ Use this in **any** open-source or shared repo where you deploy a **Dockerfile-b
 - **Framework:** FastAPI + Uvicorn
 - **Container/app port:** `3000`
 - **Public API domain used here:** `https://YOUR_API_FQDN`
-- **Frontend origin used here:** `https://pdf-chat-scrapper.vercel.app`
+- **Frontend origin used here:** `https://YOUR_FRONTEND_DOMAIN`
 - **Key health/runtime routes:** `/health`, `/status`, `/runtime-summary`, `/ask`, `/ask/stream`, `/upload`
 - **Frontend env to point at backend:** `VITE_API_BASE_URL=https://YOUR_API_FQDN`
-- **Backend CORS env example:** `CORS_ORIGINS=https://pdf-chat-scrapper.vercel.app`
+- **Backend CORS env example:** `CORS_ORIGINS=https://YOUR_FRONTEND_DOMAIN`
 
 **Placeholders (replace everywhere):**
 
